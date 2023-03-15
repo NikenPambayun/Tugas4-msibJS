@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator</title>
+</head>
+
+<body >
+    <form class="form" id="kalkulator">
+        <p class="heading">KALKULATOR SEDERHANA</p>
+        <input type="number" class="input" id="1" name="angka" placeholder="Masukkan Angka Pertama" />
+        <input type="number" class="input" id="2" name="angka2" placeholder="Masukkan Angka Kedua" />
+        <input type="number" class="input" name="hasil" disabled>
+
+        <table>
+            <tr>
+                <td><button class="btn" type="button" name="btn_tambah" onclick="tambah()">+</button></td>
+                <td><button class="btn" type="button" name="btn_kurang" onclick="kurang()">-</button></td>
+                <td><button class="btn" type="button" name="btn_kali" onclick="kali()">x</button></td>
+                <td><button class="btn" type="button" name="btn_bagi" onclick="bagi()">:</button></td>
+                <td><button class="btn" type="button" name="btn_pangkat" onclick="pangkat()">^</button></td>
+            </tr>
+            <tr>
+                <td colspan="5"><button type="reset" class="btn">Clear</button></td>
+            </tr>
+        </table>
+
+    </form>
+    <script src="js/script.js">
+        
+    </script>
+</body>
+
+</html>
